@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Detector" size="1632,969" id="NAS" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204E6567617469766553656C656374696F6E5F4E6F762F616B6E6167">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.1/@sourceConnections.1 //@children.2/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.5/@sourceConnections.0 //@children.7/@sourceConnections.2 //@children.12/@sourceConnections.4" name="Sphere" location="360,420" size="142,175" id="NAS/Sphere" runTimeClassModel="getRadius(),center,setDistribution(I),Sphere(Lcern.colt.bitvector.BitVector;),getRandomPoint(I),getCenterDistance(LNAS.Sphere;),getCenterDistance(Lcern.colt.bitvector.BitVector;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="center" id="NAS/Sphere#center"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Sphere" id="NAS/Sphere#Sphere(Lcern.colt.bitvector.BitVector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCenterDistance" id="NAS/Sphere#getCenterDistance(Lcern.colt.bitvector.BitVector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCenterDistance" id="NAS/Sphere#getCenterDistance(LNAS.Sphere;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRadius" id="NAS/Sphere#getRadius()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRandomPoint" id="NAS/Sphere#getRandomPoint(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDistribution" id="NAS/Sphere#setDistribution(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.2 //@children.7/@sourceConnections.1 //@children.8/@sourceConnections.1 //@children.10/@sourceConnections.0 //@children.12/@sourceConnections.2 //@children.13/@sourceConnections.0" name="SelfPoint" location="720,660" size="124,121" id="NAS/SelfPoint" runTimeClassModel="getRadius(),center,setRadius(I),getCoverage(),SelfPoint(Lcern.colt.bitvector.BitVector;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="center" id="NAS/SelfPoint#center"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,54">
+      <children xsi:type="editmodel:MethodEditModel" name="SelfPoint" id="NAS/SelfPoint#SelfPoint(Lcern.colt.bitvector.BitVector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRadius" id="NAS/SelfPoint#getRadius()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="NAS/Sphere&lt;-NAS/SelfPoint" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,22" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,130"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/SelfPoint-Standard::Derive->NAS/Sphere" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,26" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,150"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.7/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.9/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.12/@sourceConnections.1 //@children.13/@sourceConnections.1" name="Detector" location="0,75" size="126,103" id="NAS/Detector" runTimeClassModel="Detector(Lcern.colt.bitvector.BitVector;I),coverage,radius">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="coverage" id="NAS/Detector#coverage"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="radius" id="NAS/Detector#radius"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="71,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Detector" id="NAS/Detector#Detector(Lcern.colt.bitvector.BitVector;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="NAS/Sphere&lt;-NAS/Detector" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,103" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,13"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Detector-Standard::Derive->NAS/Sphere" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,98" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.4" name="HashGenerator" location="960,41" size="194,171" id="hash/HashGenerator" runTimeClassModel="toBitVector([BI),HashGenerator(Ljava.lang.String;),setDigest(Ljava.lang.String;),getRandomHashPasswords([Ljava.lang.String;[Ljava.lang.String;III),getHashPasswords(Ljava.lang.String;),passwordAlphabet">
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="passwordAlphabet" id="hash/HashGenerator#passwordAlphabet"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="165,90">
+      <children xsi:type="editmodel:MethodEditModel" name="HashGenerator" id="hash/HashGenerator#HashGenerator(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHashPasswords" id="hash/HashGenerator#getHashPasswords(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRandomHashPasswords" id="hash/HashGenerator#getRandomHashPasswords([Ljava.lang.String;[Ljava.lang.String;III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDigest" id="hash/HashGenerator#setDigest(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toBitVector" id="hash/HashGenerator#toBitVector([BI)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.5/@sourceConnections.3 //@children.8/@sourceConnections.2 //@children.12/@sourceConnections.5 //@children.13/@sourceConnections.3 //@children.14/@sourceConnections.0" name="ConfigUtils" location="975,300" size="123,171" id="utils/ConfigUtils" runTimeClassModel="loadStrings(Ljava.lang.String;),loadProperty(),logger,prop,loadFileName(Ljava.lang.String;),configLoggers(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="logger" id="utils/ConfigUtils#logger"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prop" id="utils/ConfigUtils#prop"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,72">
+      <children xsi:type="editmodel:MethodEditModel" name="configLoggers" id="utils/ConfigUtils#configLoggers(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadStrings" id="utils/ConfigUtils#loadStrings(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadProperty" id="utils/ConfigUtils#loadProperty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadFileName" id="utils/ConfigUtils#loadFileName(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VdetectorTestCase" location="-165,675" size="182,225" id="testCases/VdetectorTestCase" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,162">
+      <children xsi:type="editmodel:MethodEditModel" name="testGetCenterDistance1"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testGetCenterDistance2"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testGetCenterDistance3"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testGetDetectorCoverage1"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testGetDetectorCoverage2"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testGetDetectorCoverage3"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testGetDetectorCoverage4"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testGetRandomPoint"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="testCases/VdetectorTestCase#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="testCases/VdetectorTestCase-Standard::Call->NAS/Sphere" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,62" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,126"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="testCases/VdetectorTestCase-Standard::Call->NAS/Detector*testCases/VdetectorTestCase-Soyatec::Import->NAS/Detector" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="8,103"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="testCases/VdetectorTestCase-Standard::Call->NAS/SelfPoint*testCases/VdetectorTestCase-Standard::Instantiate->NAS/SelfPoint*testCases/VdetectorTestCase-Soyatec::Import->NAS/SelfPoint" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,53" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,68"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="testCases/VdetectorTestCase-Standard::Call->utils/ConfigUtils" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,79" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,107"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SaveCSVFormat" location="735,437" size="146,81" id="output/SaveCSVFormat" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="output/SaveCSVFormat#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="output/SaveCSVFormat-Standard::Call->utils/ConfigUtils" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,16" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.3" name="MonteCarloSimulationThread" location="1050,810" size="229,99" id="thread/MonteCarloSimulationThread" runTimeClassModel="call(),MonteCarloSimulationThread(ILjava.util.HashSet;Ljava.util.List;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="166,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MonteCarloSimulationThread" id="thread/MonteCarloSimulationThread#MonteCarloSimulationThread(ILjava.util.HashSet;Ljava.util.List;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="call" id="thread/MonteCarloSimulationThread#call()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="thread/MonteCarloSimulationThread-Standard::Call->NAS/Detector*thread/MonteCarloSimulationThread-Soyatec::Import->NAS/Detector" source="//@children.7" target="//@children.2" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,93"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="thread/MonteCarloSimulationThread-Standard::Call->NAS/SelfPoint*thread/MonteCarloSimulationThread-Soyatec::Import->NAS/SelfPoint" source="//@children.7" target="//@children.1" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,8" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,83"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="thread/MonteCarloSimulationThread-Standard::Call->NAS/Sphere" source="//@children.7" target="//@children.0" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="12,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.2" name="MonteCarloCalculation" location="1050,555" size="187,171" id="test/MonteCarloCalculation">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="detectionRate" id="test/MonteCarloCalculation#detectionRate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="falseRate" id="test/MonteCarloCalculation#falseRate"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="161,72">
+      <children xsi:type="editmodel:MethodEditModel" name="MonteCarloCalculation" id="test/MonteCarloCalculation#MonteCarloCalculation(ILjava.util.List;Ljava.util.HashSet;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateDetectorCoverage" id="test/MonteCarloCalculation#calculateDetectorCoverage()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDetectionRate" id="test/MonteCarloCalculation#getDetectionRate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFalseRate" id="test/MonteCarloCalculation#getFalseRate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/MonteCarloCalculation-Soyatec::Import->NAS/Detector" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,41" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/MonteCarloCalculation-Soyatec::Import->NAS/SelfPoint" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,138" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,33"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/MonteCarloCalculation-Standard::Call->utils/ConfigUtils" source="//@children.8" target="//@children.4" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="23,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,171"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/MonteCarloCalculation-Standard::Instantiate->thread/MonteCarloSimulationThread" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="61,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,171" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.3" name="DetectorTestingThread" location="135,814" size="186,135" id="thread/DetectorTestingThread" runTimeClassModel="testDetector(),DetectorTestingThread(Ljava.util.List;Lcern.colt.bitvector.BitVector;),run(),getDetector()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,72">
+      <children xsi:type="editmodel:MethodEditModel" name="DetectorTestingThread" id="thread/DetectorTestingThread#DetectorTestingThread(Ljava.util.List;Lcern.colt.bitvector.BitVector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDetector" id="thread/DetectorTestingThread#getDetector()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="thread/DetectorTestingThread#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testDetector" id="thread/DetectorTestingThread#testDetector()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="thread/DetectorTestingThread-Standard::Call->NAS/Detector*thread/DetectorTestingThread-Soyatec::Import->NAS/Detector" source="//@children.9" target="//@children.2" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,103"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.6" name="SelfTestingThread" location="731,823" size="158,117" id="thread/SelfTestingThread" runTimeClassModel="run(),SelfTestingThread(Ljava.util.List;Lcern.colt.bitvector.BitVector;I),testSelf()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,54">
+      <children xsi:type="editmodel:MethodEditModel" name="SelfTestingThread" id="thread/SelfTestingThread#SelfTestingThread(Ljava.util.List;Lcern.colt.bitvector.BitVector;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="thread/SelfTestingThread#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testSelf" id="thread/SelfTestingThread#testSelf()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="thread/SelfTestingThread-Standard::Call->NAS/SelfPoint*thread/SelfTestingThread-Soyatec::Import->NAS/SelfPoint" source="//@children.10" target="//@children.1" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,121"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.0" name="DetectorOvelapThread" location="401,814" size="185,135" id="thread/DetectorOvelapThread" runTimeClassModel="run(),getDetector(),testOverlap(),DetectorOvelapThread(Ljava.util.List;Lcern.colt.bitvector.BitVector;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,72">
+      <children xsi:type="editmodel:MethodEditModel" name="DetectorOvelapThread" id="thread/DetectorOvelapThread#DetectorOvelapThread(Ljava.util.List;Lcern.colt.bitvector.BitVector;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDetector" id="thread/DetectorOvelapThread#getDetector()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="thread/DetectorOvelapThread#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testOverlap" id="thread/DetectorOvelapThread#testOverlap()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="thread/DetectorOvelapThread-Standard::Call->NAS/Detector*thread/DetectorOvelapThread-Soyatec::Import->NAS/Detector" source="//@children.11" target="//@children.2" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,103"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.5" name="Vdetector" location="-240,330" size="173,139" id="NAS/Vdetector">
+    <children xsi:type="editmodel:CompartmentEditModel" size="150,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="detectors" id="NAS/Vdetector#detectors"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="detectorsCoverage" id="NAS/Vdetector#detectorsCoverage"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="time" id="NAS/Vdetector#time"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Vdetector" id="NAS/Vdetector#Vdetector(IID)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createDetectors" id="NAS/Vdetector#createDetectors(Ljava.util.HashSet;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Vdetector-Standard::Call->thread/DetectorOvelapThread*NAS/Vdetector-Standard::Instantiate->thread/DetectorOvelapThread*NAS/Vdetector-Soyatec::Import->thread/DetectorOvelapThread" source="//@children.12" target="//@children.11" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,134" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="2,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Vdetector-Standard::Call->NAS/Detector*NAS/Vdetector-Standard::Instantiate->NAS/Detector*NAS/Vdetector-Soyatec::Import->NAS/Detector" source="//@children.12" target="//@children.2" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,103"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Vdetector-Standard::Call->NAS/SelfPoint*NAS/Vdetector-Soyatec::Import->NAS/SelfPoint" source="//@children.12" target="//@children.1" targetEnd="//@children.12/@sourceConnections.2/@children.2" label="//@children.12/@sourceConnections.2/@children.0" sourceEnd="//@children.12/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,99" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,39"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Vdetector-Standard::Call->thread/DetectorTestingThread*NAS/Vdetector-Standard::Instantiate->thread/DetectorTestingThread*NAS/Vdetector-Soyatec::Import->thread/DetectorTestingThread" source="//@children.12" target="//@children.9" targetEnd="//@children.12/@sourceConnections.3/@children.2" label="//@children.12/@sourceConnections.3/@children.0" sourceEnd="//@children.12/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Vdetector-Standard::Call->NAS/Sphere" source="//@children.12" target="//@children.0" targetEnd="//@children.12/@sourceConnections.4/@children.2" label="//@children.12/@sourceConnections.4/@children.0" sourceEnd="//@children.12/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,114" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,24"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Vdetector-Standard::Call->utils/ConfigUtils" source="//@children.12" target="//@children.4" targetEnd="//@children.12/@sourceConnections.5/@children.2" label="//@children.12/@sourceConnections.5/@children.0" sourceEnd="//@children.12/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,69" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,99"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="NAS/Vdetector-Standard::Call->thread/SelfTestingThread*NAS/Vdetector-Standard::Instantiate->thread/SelfTestingThread*NAS/Vdetector-Soyatec::Import->thread/SelfTestingThread" source="//@children.12" target="//@children.10" targetEnd="//@children.12/@sourceConnections.6/@children.2" label="//@children.12/@sourceConnections.6/@children.0" sourceEnd="//@children.12/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,113" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,19"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.1" name="RunSimulation" location="495,90" size="136,99" id="test/RunSimulation">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,36">
+      <children xsi:type="editmodel:MethodEditModel" name="experimentSuit" id="test/RunSimulation#experimentSuit(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="simulationEpoch" id="test/RunSimulation#simulationEpoch(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/RunSimulation-Standard::Call->NAS/SelfPoint*test/RunSimulation-Standard::Instantiate->NAS/SelfPoint*test/RunSimulation-Soyatec::Import->NAS/SelfPoint" source="//@children.13" target="//@children.1" targetEnd="//@children.13/@sourceConnections.0/@children.2" label="//@children.13/@sourceConnections.0/@children.0" sourceEnd="//@children.13/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,99" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="39,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/RunSimulation-Standard::Call->NAS/Detector*test/RunSimulation-Soyatec::Import->NAS/Detector" source="//@children.13" target="//@children.2" targetEnd="//@children.13/@sourceConnections.1/@children.2" label="//@children.13/@sourceConnections.1/@children.0" sourceEnd="//@children.13/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,58"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/RunSimulation-Standard::Call->test/MonteCarloCalculation*test/RunSimulation-Standard::Instantiate->test/MonteCarloCalculation*test/RunSimulation-Soyatec::Import->test/MonteCarloCalculation" source="//@children.13" target="//@children.8" targetEnd="//@children.13/@sourceConnections.2/@children.2" label="//@children.13/@sourceConnections.2/@children.0" sourceEnd="//@children.13/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,99" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,5"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/RunSimulation-Standard::Call->utils/ConfigUtils" source="//@children.13" target="//@children.4" targetEnd="//@children.13/@sourceConnections.3/@children.2" label="//@children.13/@sourceConnections.3/@children.0" sourceEnd="//@children.13/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,84" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,53"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/RunSimulation-Standard::Call->hash/HashGenerator*test/RunSimulation-Standard::Instantiate->hash/HashGenerator*test/RunSimulation-Soyatec::Import->hash/HashGenerator" source="//@children.13" target="//@children.3" targetEnd="//@children.13/@sourceConnections.4/@children.2" label="//@children.13/@sourceConnections.4/@children.0" sourceEnd="//@children.13/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,49" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,98"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/RunSimulation-Standard::Call->NAS/Vdetector*test/RunSimulation-Standard::Instantiate->NAS/Vdetector*test/RunSimulation-Soyatec::Import->NAS/Vdetector" source="//@children.13" target="//@children.12" targetEnd="//@children.13/@sourceConnections.5/@children.2" label="//@children.13/@sourceConnections.5/@children.0" sourceEnd="//@children.13/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,74" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,37"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ExperimentsStarter" location="1185,300" size="164,81" id="test/ExperimentsStarter">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="test/ExperimentsStarter#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/ExperimentsStarter-Standard::Call->utils/ConfigUtils" source="//@children.14" target="//@children.4" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,40"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="test/ExperimentsStarter-Standard::Call->test/RunSimulation*test/ExperimentsStarter-Standard::Instantiate->test/RunSimulation*test/ExperimentsStarter-Soyatec::Import->test/RunSimulation" source="//@children.14" target="//@children.13" targetEnd="//@children.14/@sourceConnections.1/@children.2" label="//@children.14/@sourceConnections.1/@children.0" sourceEnd="//@children.14/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,17" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,68"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=NAS/Detector;wireOptions=5;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
